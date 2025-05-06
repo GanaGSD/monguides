@@ -28,7 +28,10 @@ export default function Header() {
       <div className="container">
         <div className="logo">
           <Link to="/">
-            <img src="/potenslogob.svg" alt="logo" width={80} height={80} />
+            <div className="logo-container">
+              <img src="/potenslogob.svg" alt="logo" width={80} height={80} className="logo-default" />
+              <img src="/potenslogoa.png" alt="logo" width={80} height={80} className="logo-hover" />
+            </div>
           </Link>
         </div>
 

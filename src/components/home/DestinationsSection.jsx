@@ -69,11 +69,11 @@ export default function DestinationsSection() {
           })}
         </div>
         
-        <div className="view-all-container">
+        {/* <div className="view-all-container">
           <Link to="/destinations" className="view-all-link">
             View all destinations
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   )
